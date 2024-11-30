@@ -1,0 +1,89 @@
+html{
+    background-color: #fdf1d3;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+img {
+    max-width: 80%;
+}
+
+#stan, #kuca, #pp {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+}
+
+.nekretnina-stan {
+    background-color: white;
+    padding-bottom: 25px;
+    text-align: center;
+    border: 1px solid #fdf1d3;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nekretnina-kuca {
+    background-color: powderblue;
+    padding-bottom: 25px;
+    text-align: center;
+    border: 1px solid #fdf1d3;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nekretnina-pp {
+    background-color: green;
+    padding-bottom: 25px;
+    text-align: center;
+    border: 1px solid #fdf1d3;
+    padding: 10px;
+    margin: 10px;
+}
+
+.naziv, .kvadratura{
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.cijena {
+    text-align: right;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #ff9900;
+}
+
+label, input{
+    display:inline-table;
+    width: 200px;
+    height: 25px;
+    margin: 10px;
+}
+button{
+    width: 100px;
+    height: 25px;
+    margin: 25px;
+}
+
+#pretraga{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+
+}

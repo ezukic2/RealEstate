@@ -1,0 +1,63 @@
+html{
+    background-color: #fdf1d3;
+}
+
+#osnovno{
+    text-align: center;
+}
+#osnovno p{
+    padding-bottom: 20px;
+}
+
+#osnovno p, #detalji, h3, #upiti{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+table td{
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+img{
+    width: 80%;
+}
+#upiti li {
+    background-color: white;
+    border: 1px solid black;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.lista-upita{
+    padding: 0px;
+}
+#upiti{
+    padding-bottom: 30px;
+}
+
+.korisnik {
+    font-weight: bold;
+}
+
+#formaUpita{
+    text-align: center;
+    padding: 20px;
+}
+#tekst_upita{
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    height: 50px;
+}
+
+button{
+    
+    padding: 5px;
+    margin: 15px;
+    background-color: #ecad95;
+}

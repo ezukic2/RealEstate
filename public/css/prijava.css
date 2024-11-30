@@ -1,0 +1,20 @@
+html{
+    background-color: #fdf1d3;
+}
+#forma{
+    margin-top: 100px;
+    text-align: center;
+    border-style: solid;
+    border-color: #ecad95;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+button{
+    padding: 5px;
+    margin: 15px;
+    background-color: #ecad95;
+}
+input{
+    padding-top: 10px;
+    margin: 15px;
+}

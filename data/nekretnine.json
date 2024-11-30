@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "tip_nekretnine": "Stan",
+    "naziv": "Useljiv stan Sarajevo",
+    "kvadratura": 58,
+    "cijena": 232000,
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Nullam eu pede mollis pretium."
+      },
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Phasellus viverra nulla."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Odlicna gradjevina"
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Odlicna gradjevina"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Mali poslovni prostor",
+    "kvadratura": 20,
+    "cijena": 70000,
+    "tip_grijanja": "struja",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2005,
+    "datum_objave": "20.08.2023.",
+    "opis": "Magnis dis parturient montes.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Integer tincidunt."
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Ovo je stvarno prevrh"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tip_nekretnine": "Poslovni prostor",
+    "naziv": "Moderan ured u poslovnom centru",
+    "kvadratura": 120,
+    "cijena": 180000,
+    "tip_grijanja": "električno",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2010,
+    "datum_objave": "03.10.2023.",
+    "opis": "Elegantan ured u poslovnom centru.",
+    "upiti": [
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Koji je parking dostupan?"
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Da li ima klima uređaj?"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "tip_nekretnine": "Stan",
+    "naziv": "Luksuzan stan Centar",
+    "kvadratura": 100,
+    "cijena": 450000,
+    "tip_grijanja": "podno",
+    "lokacija": "Centar",
+    "godina_izgradnje": 2020,
+    "datum_objave": "04.10.2023.",
+    "opis": "Ekskluzivan stan u samom srcu grada.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Ima li terasu?"
+      },
+      {
+        "korisnik_id": 2,
+        "tekst_upita": "Kako se grijanje održava?"
+      }
+    ]
+},
+
+{
+    "id": 5,
+    "tip_nekretnine": "Stan",
+    "naziv": "Povoljan stan Novi Grad",
+    "kvadratura": 75,
+    "cijena": 180000,
+    "tip_grijanja": "centralno",
+    "lokacija": "Novi Grad",
+    "godina_izgradnje": 2015,
+    "datum_objave": "05.10.2023.",
+    "opis": "Udoban stan u mirnom dijelu grada.",
+    "upiti": [
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Koliko su visoki troškovi grijanja?"
+      },
+      {
+        "korisnik_id": 1,
+        "tekst_upita": "Ima li parking?"
+      }
+    ]
+},
+{
+  "id": 6,
+  "tip_nekretnine": "Kuća",
+  "naziv": "Prostrana kuća na Dobrinji",
+  "kvadratura": 220,
+  "cijena": 550000,
+  "tip_grijanja": "plin",
+  "lokacija": "Dobrinja",
+  "godina_izgradnje": 2008,
+  "datum_objave": "06.10.2023.",
+  "opis": "Velika porodična kuća s velikim dvorištem.",
+  "upiti": [
+    {
+      "korisnik_id": 2,
+      "tekst_upita": "Ima li bazen?"
+    },
+    {
+      "korisnik_id": 2,
+      "tekst_upita": "Koliko ima soba?"
+    }
+  ]
+},
+
+{
+  "id": 7,
+  "tip_nekretnine": "Kuća",
+  "naziv": "Šarmantna kuća Ilidža",
+  "kvadratura": 150,
+  "cijena": 320000,
+  "tip_grijanja": "centralno",
+  "lokacija": "Ilidža",
+  "godina_izgradnje": 2012,
+  "datum_objave": "07.10.2023.",
+  "opis": "Lijepa kuća u mirnom okruženju.",
+  "upiti": [
+    {
+      "korisnik_id": 1,
+      "tekst_upita": "Ima li vrt?"
+    },
+    {
+      "korisnik_id": 2,
+      "tekst_upita": "Koliko je udaljena od škole?"
+    }
+  ]
+},
+{
+  "id": 8,
+  "tip_nekretnine": "Poslovni prostor",
+  "naziv": "Moderan ured u poslovnoj zgradi",
+  "kvadratura": 180,
+  "cijena": 300000,
+  "tip_grijanja": "klima",
+  "lokacija": "Novo Sarajevo",
+  "godina_izgradnje": 2017,
+  "datum_objave": "08.10.2023.",
+  "opis": "Savremeni ured u poslovnom kompleksu.",
+  "upiti": [
+    {
+      "korisnik_id": 2,
+      "tekst_upita": "Ima li video nadzor?"
+    },
+    {
+      "korisnik_id": 2,
+      "tekst_upita": "Koliko parking mjesta dostupno?"
+    }
+  ]
+},
+
+{
+  "id": 9,
+  "tip_nekretnine": "Poslovni prostor",
+  "naziv": "Restoran u centru",
+  "kvadratura": 120,
+  "cijena": 200000,
+  "tip_grijanja": "centralno",
+  "lokacija": "Centar",
+  "godina_izgradnje": 2014,
+  "datum_objave": "09.10.2023.",
+  "opis": "Popularan restoran u srcu grada.",
+  "upiti": [
+    {
+      "korisnik_id": 2,
+      "tekst_upita": "Kapacitet restorana?"
+    },
+    {
+      "korisnik_id": 1,
+      "tekst_upita": "Ima li terasu?"
+    }
+  ]
+},
+{
+  "id": 10,
+  "tip_nekretnine": "Kuća",
+  "naziv": "Porodična kuća sa dvorištem",
+  "kvadratura": 180,
+  "cijena": 350000,
+  "tip_grijanja": "centralno",
+  "lokacija": "Ilidža",
+  "godina_izgradnje": 2005,
+  "datum_objave": "02.10.2023.",
+  "opis": "Prostrana porodična kuća s lijepim dvorištem.",
+  "upiti": [
+    {
+      "korisnik_id": 1,
+      "tekst_upita": "Koliko ima soba?"
+    },
+    {
+      "korisnik_id": 1,
+      "tekst_upita": "Ima li garažu?"
+    }
+  ]
+},
+{
+  "id": 11,
+  "tip_nekretnine": "Stan",
+  "naziv": "Elegantan stan Ilidža",
+  "kvadratura": 85,
+  "cijena": 280000,
+  "tip_grijanja": "centralno",
+  "lokacija": "Ilidža",
+  "godina_izgradnje": 2016,
+  "datum_objave": "11.10.2023.",
+  "opis": "Elegantan stan sa modernim sadržajima.",
+  "upiti": [
+    {
+      "korisnik_id": 18,
+      "tekst_upita": "Postoji li teretana u blizini?"
+    },
+    {
+      "korisnik_id": 19,
+      "tekst_upita": "Ima li balkon?"
+    }
+  ]
+},
+{
+  "id": 12,
+  "tip_nekretnine": "Kuća",
+  "naziv": "Vila na Vlašiću",
+  "kvadratura": 300,
+  "cijena": 800000,
+  "tip_grijanja": "podno",
+  "lokacija": "Vlašić",
+  "godina_izgradnje": 2010,
+  "datum_objave": "12.10.2023.",
+  "opis": "Luksuzna vila s predivnim pogledom na planinu.",
+  "upiti": [
+    {
+      "korisnik_id": 20,
+      "tekst_upita": "Ima li bazen?"
+    },
+    {
+      "korisnik_id": 21,
+      "tekst_upita": "Koliko je udaljena od skijališta?"
+    }
+  ]
+}
+]

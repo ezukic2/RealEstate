@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ba">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalji</title>
+    <link rel="stylesheet" type="text/css" href="../css/detalji.css">
+    <link rel="stylesheet" type="text/css" href="../css/iframe.css">
+</head>
+<body>
+    <iframe id="menuIFrame" src="http://localhost:3000/meni.html"></iframe>
+    
+    <div id="osnovno">
+        <img src="https://trust.ba/wp-content/uploads/2020/12/FB_IMG_1480860923097.jpg" alt="Nekretnina">
+        <p class="naziv"><b>Naziv: </b><span id="detaljiNaziv"></span></p>
+        <p class="kvadratura"><b>Kvadratura: </b><span id="detaljiKvadratura"></span> m²</p>
+        <p class="cijena"><b>Cijena: </b><span id="detaljiCijena"></span> KM</p>
+    </div>
+
+    <h3>DETALJI</h3>
+    <div id="detalji">
+        <table>
+            <tr>
+              <td><b>Tip grijanja: </b><span id="detaljiTipGrijanja"></span></td>
+              <td><b>Godina izgradnje: </b><span id="detaljiGodinaIzgradnje"></span></td>
+            </tr>
+            <tr>
+              <td><b>Lokacija: </b><span id="detaljiLokacija"></span></td>
+              <td><b>Datum objave: </b><span id="detaljiDatumObjave"></span></td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Opis:</b> <span id="detaljiOpis"></span></td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>UPITI</h3>
+    <div id="upiti">
+        <ul class="lista-upita" id="detaljiUpiti">
+        </ul>
+    </div>
+    <div id="formaUpita">
+      <form id="upit">
+        <input id="tekst_upita" type="text"/>
+        <br/>
+        <button type="submit">Postavi upit</button>
+    </form>
+    </div>
+
+    <script src="../../PoziviAjax.js"></script>
+    <script src="../scripts/nekretnine.js"></script>
+    <script src="../scripts/spojiDetalje.js"></script>
+    <script src="../scripts/spojiUpite.js"></script>  
+</body>
+</html>
